@@ -1,0 +1,46 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+html { 
+    scroll-behavior: smooth; 
+    box-sizing: inherit;
+}
+body{
+    padding: 10% 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: inherit;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    font-family: 'Nunito', sans-serif;
+    /* background-image: linear-gradient(to bottom right , #dad7e7,#d5d3e1); */
+    /* background-image: url('https://cdn.shopify.com/s/files/1/0575/0987/1774/files/3_a30a55b4-0340-4c38-8e2a-8c7be4f409ba.png?v=1653967370'); */
+    background: rgb(225,237,250);
+background: linear-gradient(90deg, rgb(210, 228, 247) 0%, rgb(252, 229, 239) 100%);
+}
+.container{
+    background-color: #efeff8;
+    border-radius: 20px;
+    box-shadow:0px 6px 15px rgba(0,0,0,0.15);
+    padding: 25px;
+    box-sizing: border-box;
+    width: 720px;
+    backdrop-filter: blur(40px);
+}
+.container{
+    padding: 15px;
+}
+html {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  .avarta{
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+  }
